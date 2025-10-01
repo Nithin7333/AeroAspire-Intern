@@ -1,16 +1,21 @@
-# React + Vite
+# Taskify - React Task List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskify is a small React app built during my internship to practice React components, props, and Material UI (MUI).  
+The app demonstrates a reusable TaskCard component that displays a task's title, description, and due date.  
+I set up the project using Vite, installed Material UI, and organized the code with a clear folder structure:  
+- components → for TaskCard  
+- pages → for the Home page  
+- App.jsx → main entry point  
 
-Currently, two official plugins are available:
+The Home page renders a list of dummy tasks by passing props to TaskCard components.  
+App.jsx uses MUI's ThemeProvider and CssBaseline for consistent styling across browsers.  
+Vite’s hot reload allows real-time updates while developing.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project helped me understand React’s component hierarchy, how to pass data via props, and how to integrate Material UI into a React project.  
+To run Taskify:  
+1. Clone the repo  
+2. Run `npm install`  
+3. Run `npm run dev`  
+4. Open the provided local link in your browser  
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app displays a clean, responsive task list, making it a simple yet practical way to practice modern React development.
