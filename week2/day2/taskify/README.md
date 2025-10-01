@@ -18,4 +18,4 @@ To run Taskify:
 3. Run `npm run dev`  
 4. Open the provided local link in your browser  
 
-The app displays a clean, responsive task list, making it a simple yet practical way to practice modern React development.
+The app displays a clean, responsive task list, making it a simple yet practical way to practice modern React development..
