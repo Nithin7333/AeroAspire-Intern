@@ -19,3 +19,7 @@ To run Taskify:
 4. Open the provided local link in your browser  
 
 The app displays a clean, responsive task list, making it a simple yet practical way to practice modern React development..
+
+## Screenshot
+
+![Taskify Screenshot](./day2week2.png)
