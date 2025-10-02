@@ -1,24 +1,16 @@
-# My Task Hub
-A simple React + Material UI Task Tracker to manage tasks. This project demonstrates React components, state, hooks, forms, controlled components, and validation. Users can add tasks via a form, see them displayed in a dynamic list, and enjoy input validation with a clean UI.
+# React + Vite
 
-**Features:** Users can add tasks using a Material UI form. Task input is required and must be at least 4 characters long. Tasks are displayed in a clean list using a separate component. State management is handled with useState, and the UI updates automatically. Preloaded dummy tasks are added on component mount using useEffect. Simple styling with Material UI, including dividers between tasks, makes the interface readable and neat.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-**Folder Structure:**
-src/
-├─ components/
-│ ├─ TaskForm.jsx
-│ └─ TaskList.jsx
-├─ pages/
-│ └─ Home.jsx
-└─ App.jsx
+Currently, two official plugins are available:
 
-**How It Works:** Home.jsx is the main page that keeps track of tasks and renders TaskForm and TaskList. TaskForm.jsx is a controlled component that validates input and sends new tasks to Home.jsx via props. TaskList.jsx receives tasks as props and displays them with dividers. Changes in state automatically update the UI; props pass data from parent to child.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-**How to Run:** Clone the repository with `git clone <your-repo-url>`. Install dependencies using `npm install`. Run the development server with `npm run dev` and open the displayed URL (e.g., `http://localhost:5173`) in your browser.
+## React Compiler
 
-**Technologies Used:** React 18, Material UI (MUI), Vite, JavaScript ES6+.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-**Notes:** Input validation ensures tasks are not empty and have at least 4 characters. Tasks are stored in state; adding a task updates the list immediately. Preloaded dummy tasks demonstrate initial state using useEffect.
+## Expanding the ESLint configuration
 
-
-![TaskMaster Screenshot](./outputday3week2.png)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
