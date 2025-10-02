@@ -15,7 +15,7 @@ src/
 **How It Works:** Home.jsx is the main page that keeps track of tasks and renders TaskForm and TaskList. TaskForm.jsx is a controlled component that validates input and sends new tasks to Home.jsx via props. TaskList.jsx receives tasks as props and displays them with dividers. Changes in state automatically update the UI; props pass data from parent to child.
 
 **Screenshot:**  
-![App Screenshot](./outputday3week2.png)
+![App Screenshot](./week2/day3/taskmaster/src/outputday3week2.png.)
 
 **How to Run:** Clone the repository with `git clone <your-repo-url>`. Install dependencies using `npm install`. Run the development server with `npm run dev` and open the displayed URL (e.g., `http://localhost:5173`) in your browser.
 
