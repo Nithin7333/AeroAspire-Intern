@@ -19,3 +19,5 @@ src/
 **Technologies Used:** React 18, Material UI (MUI), Vite, JavaScript ES6+.
 
 **Notes:** Input validation ensures tasks are not empty and have at least 4 characters. Tasks are stored in state; adding a task updates the list immediately. Preloaded dummy tasks demonstrate initial state using useEffect.
+
+(./outputday3week2.png)
