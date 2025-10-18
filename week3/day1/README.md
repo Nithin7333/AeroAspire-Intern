@@ -7,6 +7,7 @@ GET /tasks → to fetch some sample tasks stored in memory.
 
 POST /tasks → to add a new task (tested using Postman).
 
+```bash
 flask_tasks/
 │
 ├── app/
@@ -18,6 +19,7 @@ flask_tasks/
 ├── venv/
 ├── main.py
 └── requirements.txt
+```
 
 At first, Flask didn’t run because the file paths were wrong.
 Then I got the error “No such file or directory main.py” — I fixed it by creating the file inside the right folder.
