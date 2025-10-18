@@ -31,5 +31,5 @@ GET /tasks → returned dummy task list
 
 POST /tasks → successfully added a new task to the list
 
-![Image1](./pics/day1ofweek3.PNG)
-![Image2](./pics/day1ofweek302.PNG)
+![Image1](./Images/day1ofweek3.PNG)
+![Image2](./Images/day1ofweek302.PNG)
