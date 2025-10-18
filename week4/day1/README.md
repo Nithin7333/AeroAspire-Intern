@@ -78,4 +78,4 @@ Sample output from CLI:
 - Gained experience in using SQLite CLI inside VS Code terminal.
 
 
-![Image1](week4day1.PNG)
+![Image1](./Image/week4day1.PNG)
